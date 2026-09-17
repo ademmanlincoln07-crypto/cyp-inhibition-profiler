@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+*.log
+*.out
+.nox/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Large single-concentration / TDI / Emax / blinded raw files (not needed to run the direct-inhibition app)
+data/raw/cyp-challenge-single-concentration-TRAIN.csv
+data/raw/cyp-challenge-TRAIN_TDI.csv
+data/raw/cyp-challenge-TRAIN_Emax.csv
+data/raw/cyp-challenge-TEST-BLINDED.csv
+
+# Cached molecular features (regenerated on first run if missing; ~20 MB)
+data/processed/*.pkl
+
+# Dev-only screenshots & scripts
+screenshot.png
+take_screenshot.py
+*.tmp
+*.bak
