@@ -41,7 +41,6 @@ data/raw/cyp-challenge-TEST-BLINDED.csv
 data/processed/*.pkl
 
 # Dev-only screenshots & scripts
-screenshot.png
 take_screenshot.py
 *.tmp
 *.bak
